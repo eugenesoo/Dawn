@@ -16,17 +16,7 @@
             </svg>
         </a>
         {{/if}}
-        {{#if isSecondary}}
-        <!-- secondary navigation -->
-        {{#foreach navigation}}
-        <a class="social-item social-item-{{slug}}" href="{{url}}" target="_blank" rel="noopener noreferrer"
-            aria-label="{{slug}}">
-            <svg class="icon">
-                <use xlink:href="#{{slug}}"></use>
-            </svg>
-        </a>
-        {{/foreach}}
-        {{/if}}
+        {{navigation type="secondary"}}
     </div>
 
     <nav class="footer-nav">
