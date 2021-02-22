@@ -16,10 +16,19 @@
             </svg>
         </a>
         {{/if}}
+        {{#if isSecondary}}
+        <!-- secondary navigation -->
+        {{#foreach navigation}}
+        <a class="social-item social-item-{{slug}}" href="{{url}}" target="_blank" rel="noopener noreferrer"
+            aria-label="{{slug}}">
+            <svg class="icon">
+                <use xlink:href="#{{slug}}"></use>
+            </svg>
+        </a>
+        {{/foreach}}
     </div>
 
     <nav class="footer-nav">
-        {{navigation type="secondary"}}
         <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme"
             data-light="Light theme">
             <svg class="icon theme-icon theme-icon-system">
