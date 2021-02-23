@@ -1,0 +1,11 @@
+.commento-root pre {
+    all: unset;
+}
+
+.commento-root blockquote {
+    all: unset;
+}
+
+#commento-footer {
+    display: none;
+}
