@@ -1,19 +1,11 @@
-.commento-root pre {
-    all: unset;
-}
-
-.commento-root blockquote {
-    all: unset;
-}
-
 #commento-footer {
     display: none;
 }
 
-.commento-root .commento-anonymous-checkbox-container {
+#commento-markdown-button-root {
     display: none;
 }
 
 .commento-root .commento-card {
-    border-top: unset;
+    border-top: none !important;
 }
