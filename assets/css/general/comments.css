@@ -6,6 +6,14 @@
     display: none;
 }
 
+#commento-markdown-button {
+    display: none;
+}
+
 .commento-root .commento-card {
     border-top: none !important;
+}
+
+.commento-root .commento-permalink {
+    display: none;
 }
