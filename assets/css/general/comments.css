@@ -9,3 +9,11 @@
 #commento-footer {
     display: none;
 }
+
+.commento-root .commento-anonymous-checkbox-container {
+    display: none;
+}
+
+.commento-root .commento-card {
+    border-top: unset;
+}
